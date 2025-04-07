@@ -7,9 +7,9 @@ pygame.init()
 
 # Sound setup
 pygame.mixer.init()
-ball_hit_sound = pygame.mixer.Sound("assets/sounds/hit.wav")
-block_hit_sound = pygame.mixer.Sound("assets/sounds/block.wav")
-game_over_sound = pygame.mixer.Sound("assets/sounds/game_over.wav")
+ball_hit_sound = pygame.mixer.Sound("assets/sounds/hit.mp3")
+block_hit_sound = pygame.mixer.Sound("assets/sounds/block.mp3")
+game_over_sound = pygame.mixer.Sound("assets/sounds/game_over.mp3")
 
 # Screen settings
 WIDTH, HEIGHT = 800, 600
